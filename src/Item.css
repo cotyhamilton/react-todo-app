@@ -1,0 +1,21 @@
+.deleteButton {
+    display: none;
+    margin: 8px;
+}
+
+.item {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.item li {
+    margin: 8px;
+}
+
+.item:hover .deleteButton {
+    cursor: pointer;
+    display: block;
+}
