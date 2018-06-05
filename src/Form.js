@@ -26,7 +26,7 @@ class Form extends Component {
 
     render() {
         return (
-            <form className="add-item-form" onSubmit={this.handleSubmit}>
+            <form className={`add-item-form ${this.props.formClass}`} onSubmit={this.handleSubmit}>
                 <input
                     type="text"
                     autoComplete="off"
