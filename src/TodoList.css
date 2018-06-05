@@ -18,3 +18,11 @@
     color: white;
     padding: 10px 0;
 }
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none
+}
