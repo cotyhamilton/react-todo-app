@@ -35,11 +35,18 @@ class TodoList extends Component {
             <Item key={i.id} item={i} onDelete={this.deleteItem} />
         ));
         return (
-            <div className="App">
-                <h1>Simple Todo App</h1>
-                <Form onSave={this.handleSave} />
+            <div className="Container">
+                <header className="title">
+                    <h1>Simple Todo App</h1>
+                </header>
                 <div className="list">
-                    <ul> {items} </ul>
+                    <ul>
+                        {items}
+                        <div className="list-item add-item-button">
+                            <Form onSave={this.handleSave} />
+                            +
+                        </div>
+                    </ul>
                 </div>
             </div>
         );
