@@ -17,7 +17,7 @@ class Item extends Component {
 
     render() {
         return (
-            <div className="item" onClick={this.itemClicked}>
+            <div className="list-item" onClick={this.itemClicked}>
                 <li>{this.props.item.item}</li>
                 <span className="deleteButton">x</span>
             </div>
