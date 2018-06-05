@@ -3,3 +3,12 @@
   width: 400px;
   margin: auto;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.add-item-form {
+  display: none;
+}
