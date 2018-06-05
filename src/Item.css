@@ -1,21 +1,31 @@
 .deleteButton {
+    color: #222;
     display: none;
-    margin: 8px;
+    margin-right: 10px;
 }
 
-.item {
-    border-bottom: 1px solid black;
+.list-item {
     cursor: pointer;
     display: flex;
     justify-content: space-between;
+    line-height: 34px;
     list-style-type: none;
 }
 
-.item li {
-    margin: 8px;
-}
-
-.item:hover .deleteButton {
+.list-item:hover .deleteButton {
     cursor: pointer;
     display: block;
+}
+
+.list-item li {
+    color: #222;
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+.add-item-button{
+    color: #333;
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
 }
